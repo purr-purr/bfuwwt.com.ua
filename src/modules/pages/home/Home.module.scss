@@ -1,0 +1,43 @@
+
+.firstScreen {
+  @include flex-justify(center);
+  flex-direction: column;
+  min-height: 800px;
+  background: $blue url("../../../assets/images/hands.svg") no-repeat right center;
+  @include block-padding(100px);
+
+  &-title {
+    max-width: 654px;
+    width: 100%;
+    font-size: 60px;
+    color: $white;
+    margin-bottom: 50px;
+    border-left: 4px solid $yellow;
+    padding-left: 20px;
+  }
+
+  &-desc {
+    max-width: 484px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    color: $white;
+  }
+}
+
+
+.aboutFund {
+  @include block-padding(100px);
+  padding-top: 200px;
+  padding-bottom: 184px;
+
+  &-title {
+    font-size: 30px;
+    color: $blue;
+    max-width: 848px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}

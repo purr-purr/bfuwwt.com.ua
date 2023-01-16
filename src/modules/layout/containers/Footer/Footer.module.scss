@@ -1,0 +1,12 @@
+.container {
+  @include flex-justify-align(space-between, center);
+  @include block-padding(100px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 2px solid $blue;
+}
+
+.title {
+  font-size: 12px;
+  width: fit-content;
+}
