@@ -3,4 +3,8 @@
   @include block-padding(100px);
   padding-bottom: 15px;
   padding-top: 15px;
+
+  @include media-mobile {
+    @include block-padding(20px);
+  }
 }

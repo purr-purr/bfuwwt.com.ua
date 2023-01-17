@@ -11,4 +11,9 @@
 
 .section {
   flex: 1 0 auto;
+  @include block-padding(100px);
+
+  @include media-mobile {
+    @include block-padding(20px);
+  }
 }

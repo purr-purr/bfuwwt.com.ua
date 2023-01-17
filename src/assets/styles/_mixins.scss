@@ -54,3 +54,8 @@
   padding-left: $val;
   padding-right: $val;
 }
+
+@mixin title-line {
+  border-left: 2px solid $blue;
+  padding-left: 10px;
+}

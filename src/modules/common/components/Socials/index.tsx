@@ -1,4 +1,5 @@
 import messages from '@helpers/messages';
+import { ADDRESS_LINK, CONTACT_EMAIL, CONTACT_NUMBER } from '@helpers/const';
 
 import PHONE_ICON from 'src/assets/images/icons/phone.svg';
 import LOCATION_ICON from 'src/assets/images/icons/location.svg';
@@ -10,17 +11,17 @@ const Socials = () => {
   return (
     <ul className={s.container}>
       <li>
-        <a href="#">
+        <a href={`mailto:${CONTACT_EMAIL}`} target="_blank">
           <img src={MAIL_ICON} alt={messages.SOCIALS_ALT} />
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href={`tel:${CONTACT_NUMBER}`} target="_blank">
           <img src={PHONE_ICON} alt={messages.SOCIALS_ALT} />
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href={ADDRESS_LINK} target="_blank">
           <img src={LOCATION_ICON} alt={messages.SOCIALS_ALT} />
         </a>
       </li>

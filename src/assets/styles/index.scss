@@ -21,16 +21,16 @@ body {
   overflow-x: hidden;
   color: $main-text;
 
-  @include media-laptop {
-    font-size: 14px;
-  }
-
   @include media-mobile {
     font-size: 12px;
   }
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 700;
 }
 
