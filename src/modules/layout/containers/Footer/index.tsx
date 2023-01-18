@@ -1,7 +1,8 @@
-import s from './Footer.module.scss';
 import Logo from '@modules/common/components/logo';
 import Socials from '@modules/common/components/Socials';
 import messages from '@helpers/messages';
+
+import s from './Footer.module.scss';
 
 const Footer = () => {
   return (

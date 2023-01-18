@@ -1,5 +1,4 @@
 export const MOBILE_BP = 1124;
-export const LAPTOP_BP = 1600;
 export const ADDRESS = '01014, м. Київ, вул. Звіринецька, буд. 63 офіс 1';
 export const ADDRESS_LINK = 'https://goo.gl/maps/cS5ouxerbHJcq7XL8';
 export const TAX_CODE = 44765447;

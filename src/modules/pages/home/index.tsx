@@ -1,11 +1,12 @@
+import { useMediaQuery } from '@modules/common/hooks';
+import CardFrame from '@modules/common/components/cardFrame';
+
+import { ADDRESS, CURRENT_ACCOUNT, MOBILE_BP, OWNER, TAX_CODE } from '@helpers/const';
 import messages from '@helpers/messages';
 
 import HISTORY_PIC from 'src/assets/images/about-fund-hand.png';
 
 import s from './Home.module.scss';
-import CardFrame from '@modules/common/components/cardFrame';
-import { ADDRESS, CURRENT_ACCOUNT, MOBILE_BP, OWNER, TAX_CODE } from '@helpers/const';
-import { useMediaQuery } from '@modules/common/hooks';
 
 const Home = () => {
   const isMobile = useMediaQuery(MOBILE_BP);
@@ -32,8 +33,8 @@ const Home = () => {
 
       <article className={s.about}>
         <div className={s[`about-info`]}>
-          <h3 className={s[`about-title`]}>{messages.CREATED_FUND}</h3>
-          <p>{messages.CREATED_FUND_DESC}</p>
+          <h3 className={s[`about-title`]}>{messages.FUND_NOT_COMMERCIAL}</h3>
+          <p>{messages.FUND_NOT_COMMERCIAL_DESC}</p>
         </div>
 
         <section className={s.cards}>
