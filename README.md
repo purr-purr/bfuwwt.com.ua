@@ -1,5 +1,7 @@
 # https://bfuwwt.com.ua/
 
+## BFUWWT Charity Fund - Landing Page
+
 ## Installation
 
 You can run and build application with the following commands
