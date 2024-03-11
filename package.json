@@ -2,6 +2,7 @@
   "name": "bfuwwwt.com.ua",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://purr-purr.github.io/bfuwwt.com.ua/",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@types/eslint": "^7.28.2",
@@ -42,7 +43,8 @@
     "eject": "react-scripts eject",
     "dev:prettier": "prettier --write .",
     "dev:prettier-check": "prettier --check .",
-    "dev:lint-check": "npx eslint ."
+    "dev:lint-check": "npx eslint .",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -61,5 +63,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
