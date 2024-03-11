@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6040f105.chunk.css",
+    "main.js": "/static/js/main.a8165358.chunk.js",
+    "main.js.map": "/static/js/main.a8165358.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.552907b7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.552907b7.js.map",
+    "static/js/2.d6d387a7.chunk.js": "/static/js/2.d6d387a7.chunk.js",
+    "static/js/2.d6d387a7.chunk.js.map": "/static/js/2.d6d387a7.chunk.js.map",
+    "static/js/3.d893cc19.chunk.js": "/static/js/3.d893cc19.chunk.js",
+    "static/js/3.d893cc19.chunk.js.map": "/static/js/3.d893cc19.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6040f105.chunk.css.map": "/static/css/main.6040f105.chunk.css.map",
+    "static/js/2.d6d387a7.chunk.js.LICENSE.txt": "/static/js/2.d6d387a7.chunk.js.LICENSE.txt",
+    "static/media/about-fund-hand.68f16e59.png": "/static/media/about-fund-hand.68f16e59.png",
+    "static/media/Home.module.scss": "/static/media/hands.4112c5c6.svg",
+    "static/media/location.10090d33.svg": "/static/media/location.10090d33.svg",
+    "static/media/logo.aae6d1b5.svg": "/static/media/logo.aae6d1b5.svg",
+    "static/media/mail.26605d3d.svg": "/static/media/mail.26605d3d.svg",
+    "static/media/phone.cbcb5c99.svg": "/static/media/phone.cbcb5c99.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.552907b7.js",
+    "static/js/2.d6d387a7.chunk.js",
+    "static/css/main.6040f105.chunk.css",
+    "static/js/main.a8165358.chunk.js"
+  ]
+}
