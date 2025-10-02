@@ -2,6 +2,7 @@ const sassResourcesLoader = require('craco-sass-resources-loader');
 const CracoAlias = require('craco-alias');
 
 module.exports = () => ({
+  output: { publicPath: '/' },
   plugins: [
     {
       plugin: sassResourcesLoader,

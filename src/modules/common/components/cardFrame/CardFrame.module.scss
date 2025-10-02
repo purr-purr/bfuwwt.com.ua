@@ -5,7 +5,7 @@
   @include flex-align(flex-end);
   padding: 30px;
   position: relative;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 
   &:after {
     content: '';
@@ -17,19 +17,19 @@
     top: -2px;
     right: -2px;
     border: 2px solid $blue;
-    transition: top .5s ease-in-out, right .5s ease-in-out;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
   }
 }
 
 .backSide {
   padding: 30px 20px 20px;
   align-items: flex-start;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 
   &:after {
     top: -16px;
     right: -16px;
-    transition: top .5s ease-in-out, right .5s ease-in-out;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
 
     @include media-mobile {
       top: -8px;

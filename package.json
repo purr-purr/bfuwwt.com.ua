@@ -2,7 +2,7 @@
   "name": "bfuwwwt.com.ua",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://purr-purr.github.io/bfuwwt.com.ua/",
+  "homepage": "https://bfuwwt.com.ua",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@types/eslint": "^7.28.2",

@@ -6,7 +6,7 @@
   @include block-padding(100px);
   width: calc(100% + 200px);
   margin-left: -100px;
-  
+
   @include media-mobile {
     @include block-padding(20px);
     width: calc(100% + 40px);
@@ -209,9 +209,10 @@
 
 .frameContainer {
   opacity: 1;
-  transition: opacity .8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
 
-  h5, dd {
+  h5,
+  dd {
     color: $blue;
     font-weight: 700;
     font-size: 16px;
